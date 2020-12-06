@@ -1,0 +1,37 @@
+/* .dataTables_wrapper {
+  padding-bottom: 5em;
+} */
+
+.page-item.active .page-link {
+  background-color: #f50;
+  border-color: #f50;
+}
+
+.dataTable::-webkit-scrollbar {
+  height: 6px;
+  width: 4px;
+}
+
+.dataTable td {
+  white-space: nowrap;
+}
+
+.dataTable::-webkit-scrollbar-thumb {
+  background: #f70;
+}
+
+.dataTable::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+.edit a {
+  color: #000000;
+}
+.link-user {
+  color: #f50;
+  padding: 2px 5px;
+}
+
+.link-user:hover {
+  text-decoration: underline;
+  color: #f90;
+}

@@ -1,0 +1,25 @@
+.react-datepicker-wrapper {
+  margin-bottom: 1rem;
+}
+
+.modal-content .modal-body {
+  padding: 1rem 4rem;
+}
+
+.list-totalTS {
+  margin-bottom: 1rem;
+}
+
+.list-totalTS p {
+  margin: 0;
+  line-height: 1.8rem;
+}
+
+.month-picker-ts {
+  align-items: flex-start;
+}
+
+.form-group .col-form-label {
+  text-align: left;
+  min-width: unset;
+}

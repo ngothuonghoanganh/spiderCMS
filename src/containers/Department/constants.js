@@ -1,0 +1,2 @@
+
+export const LOAD_POSITIONS = 'LOAD_POSITIONS';

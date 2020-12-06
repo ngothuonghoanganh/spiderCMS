@@ -1,0 +1,2 @@
+export const UPDATE_PROFILE = 'UPDATE_PROFILE';
+export const LOAD_DATA_USER = 'LOAD_DATA_USER';

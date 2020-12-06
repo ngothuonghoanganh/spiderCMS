@@ -1,0 +1,15 @@
+to run in local.
+    + in backend
+        - cd spidercms/server_side/config
+        - open file config.json
+        - change username and password in develop become your username and password in your mysql
+        - in your mysql create database spiderdev
+        - cd spidercms/server_side/
+        - run two command in cmd:
+            .first: node_modules/.bin/sequelize db:migrate
+            .second: node_modules/.bin/sequelize db:seed:all
+        - npm start
+    + in fontend 
+        - cd src/constants/
+        - open config.js
+        - change urtl become  url: 'http://localhost:3003',

@@ -1,0 +1,30 @@
+.showimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dropzone-user {
+  border-radius: 50%;
+  border: 1px dotted;
+  text-align: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
+.clickUp {
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 70px;
+  cursor: pointer;
+}
+.text-danger {
+  font-weight: 500;
+}

@@ -1,0 +1,319 @@
+/* MOBILE */
+@media (max-width: 374px) {
+
+  .login-forgot-password,
+  .login-remember {
+    text-align: center;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .cron-block .Select-control,
+  .cron-block .Select-menu-outer,
+  .cron-block .react-datepicker__input-container input {
+    width: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* CONTENT */
+  main {
+    margin-left: auto;
+    width: calc(100% - 50px);
+    /* min-height: calc(100vh - 115px); */
+    opacity: 0.2;
+  }
+
+  .navbar .navbar-brand {
+    background-image: url('../../assets/img/logo_small.svg');
+    width: 50px;
+    background-size: 25px auto;
+  }
+
+  #sidebar {
+    min-width: 300px !important;
+  }
+
+  main.active {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .profile-pic-none {
+    width: 250px;
+    height: 250px;
+    border: none;
+  }
+
+  .my-card {
+    padding: 40px;
+    border-radius: 0;
+  }
+
+  .card-401 {
+    margin: 15% 3%;
+  }
+
+  /* Header */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /* Footer */
+  .footer {
+    margin-left: 0;
+  }
+
+  .footer.active {
+    opacity: 1;
+  }
+
+  .form-add {
+    margin-bottom: 60px;
+  }
+
+  .pd-bt1 {
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: 576px) {
+
+  #sidebar>ul li.active>a,
+  #sidebar a[aria-expanded='true'] {
+    color: #fff;
+    background: #f50;
+  }
+
+  #sidebar.active ul ul a {
+    padding-left: 5px !important;
+  }
+
+  #sidebar a.article,
+  a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+  }
+
+  #sidebar.active ul li {
+    position: relative;
+    margin: 0px;
+    padding: 0;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#homeSubmenu>li>a,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#setting>li>a {
+    padding: 5px;
+  }
+
+  #sidebar.active ul li.drop:hover {
+    background: #f50;
+  }
+
+  aside.main-sidebar.style-3.active .sidebar .components li ul li a span.iconActive {
+    display: block;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  #sidebar.active ul li ul a svg {
+    float: left;
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+
+  /* HEADER */
+  .navbar-expand-lg .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  .card-401 {
+    margin: 13% 10%;
+  }
+}
+
+/* TABLET */
+@media (max-width: 767px) {
+  .navbar {
+    -webkit-box-pack: initial;
+    -ms-flex-pack: initial;
+    justify-content: initial;
+  }
+
+  .minimized #sidebar {
+    min-width: 65%;
+    z-index: 99;
+  }
+
+  #sidebar.hide {
+    margin-left: -100% !important;
+  }
+
+  .showIconSidebar {
+    display: none !important;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li.menu-bar:hover>a>span.hidden-menu {
+    display: inline;
+  }
+
+  .flex-row {
+    position: absolute;
+    right: 0;
+  }
+
+  .profile-general:first-child {
+    margin-bottom: 50px;
+  }
+
+  /* FOOTER */
+
+  /* .table-responsives {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  } */
+
+  .view-profile {
+    margin-top: 5%;
+  }
+
+  .my-card {
+    padding: 40px;
+    border-radius: 0;
+  }
+
+  .table-responsives {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .dropzone-user {
+    margin: 10px auto 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-card {
+    padding: 40px;
+    border-radius: 0;
+  }
+
+  .card-401 {
+    margin: 20% 10%;
+  }
+
+  #sidebar.active ul li a {
+    padding: 7px;
+    text-align: center;
+    /* position: relative; */
+    display: block;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li:hover>a>span,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#homeSubmenu,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#setting,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#employSub,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#positionSub,
+  #sidebar.active ul.list-unstyled.components>li:hover>ul#rolesSub {
+    display: block;
+    position: absolute;
+    width: 200px;
+    left: 50px;
+  }
+
+  aside.main-sidebar.style-3.active .sidebar .components li a span {
+    display: none;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li>ul.list-unstyled.collapse.show {
+    display: none;
+  }
+
+  #sidebar.active ul li a svg {
+    margin-right: 0;
+    /* display: block; */
+    /* margin-bottom: 5px; */
+    margin-left: 0;
+  }
+
+  #sidebar.active ul li a svg.faArrow {
+    display: none;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li:hover>a>.pull-right {
+    display: none;
+  }
+
+  #sidebar.active ul.list-unstyled.components>li:hover>a>span {
+    top: 0;
+    margin-left: 0px;
+    padding: 7px 0;
+    background-color: #f50;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .card-401 {
+    margin: 11% 20%;
+  }
+
+  .w-form {
+    width: 540px;
+  }
+
+  .dropzone-user {
+    margin: 10px auto 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+  /* HEADER */
+  .dropzone-user {
+    height: 230px;
+    width: 230px;
+  }
+
+  .showimg {
+    width: 230px;
+    height: 230px;
+  }
+
+  .clickUp {
+    padding: 85px;
+  }
+
+  .card-401 {
+    margin: 10% 25%;
+  }
+
+  .w-form {
+    width: 540px;
+  }
+}
+
+@media (max-width: 1050px) {}

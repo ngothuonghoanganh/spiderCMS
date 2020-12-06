@@ -1,0 +1,8 @@
+.form-group {
+  justify-content: unset;
+}
+
+.form-group .col-form-label {
+  text-align: left;
+  min-width: unset;
+}

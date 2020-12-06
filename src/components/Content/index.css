@@ -1,0 +1,40 @@
+main {
+  position: relative;
+  /* min-height: calc(100vh - 90px); */
+  width: calc(100% - 220px);
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.minimized main {
+  width: calc(100% - 50px);
+  max-width: 100%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.minimized footer {
+  margin-left: 50px;
+}
+
+.minimized #sidebar {
+  min-width: 50px;
+  max-width: 50px;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.personal-info {
+  padding-bottom: 20px;
+}
+body {
+  background-color: #F5F5F5 !important;
+}
+
+main.active {
+  width: 100%;
+}
+.footer.active {
+  margin-left: 0;
+}

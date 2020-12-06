@@ -1,0 +1,22 @@
+.img-user {
+  position: relative;
+}
+.img-user img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  left: 15px;
+}
+.form-control:disabled {
+  background-color: #ffffff;
+}
+.dropdown-menu.show {
+  border-radius: 0 !important;
+}
+.change-password{
+  font-size: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  font-family: Lato;
+  margin-bottom: 1rem;
+}

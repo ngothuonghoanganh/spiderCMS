@@ -1,0 +1,13 @@
+.dashboard .card-body {
+  padding: 0 5% 6% 6%;
+}
+.dashboard .card-header, .assigned-task .card-header {
+  border-bottom: 0;
+}
+.dashboard img {
+  width: 75px;
+  height: 75px;
+}
+.assigned-task table td, .assigned-task table th {
+  border-top: 0;
+}

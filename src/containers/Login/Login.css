@@ -1,0 +1,33 @@
+.form-logo-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 25px;
+}
+.splash-description {
+  display: block;
+  line-height: 20px;
+  font-size: 0.875rem;
+  color: #5a5959;
+}
+.splash-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.login-forgot-password {
+  text-align: right;
+}
+.login-remember {
+  text-align: left;
+}
+.form-group input,
+textarea {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.formText {
+  font-size: 1rem;
+}
+.login-tools {
+  display: none;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "spiderapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "batch": "^0.6.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "cryptr": "^3.0.0",
+    "dateformat": "^3.0.3",
+    "db-migrate-mysql": "^1.1.10",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-fileupload": "^0.4.0",
+    "file-extension": "^4.0.2",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.2",
+    "lru-cache": "^4.1.3",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.5.3",
+    "node-cron": "^1.2.1",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.19.3",
+    "path": "^0.12.7",
+    "public-ip": "^2.4.0",
+    "rand-token": "^0.4.0",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.1.1",
+    "socket.io": "^2.3.0",
+    "swagger-ui-express": "^4.0.2",
+    "timezone": "^1.0.22",
+    "underscore": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nyc": "^14.1.1"
+  }
+}

@@ -1,0 +1,13 @@
+.footer {
+  font-weight: 300;
+  padding-top: 7px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 7px;
+  padding-left: 14px;
+  margin-left: 220px;
+  transition: all 0.3s;
+}
+.footer strong {
+  font-weight: 400;
+}

@@ -1,0 +1,8 @@
+.list-permissions .ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+  background-color: #fb7832;
+  border-color: #fb7832;
+}
+
+.list-permissions .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner::after {
+  background-color: #f9562c;
+}

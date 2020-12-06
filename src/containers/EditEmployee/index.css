@@ -1,0 +1,20 @@
+.img-user {
+  position: relative;
+}
+/* .showimage{
+  padding:0;
+  position: absolute;
+  top: 0;
+} */
+.img-user img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  left: 15px;
+}
+.form-control:disabled {
+  background-color: #ffffff;
+}
+.dropdown-menu.show {
+  border-radius: 0 !important;
+}

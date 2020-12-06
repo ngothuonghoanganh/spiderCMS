@@ -1,0 +1,13 @@
+.my-breadcrumb {
+  background-color: #fff !important;
+  border-radius: 0;
+  border-bottom: 1px solid #e3e8ec;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+ol.breadcrumb li:last-child a span {
+  color: #f50;
+}
+ol.breadcrumb li:first-child a span {
+  color: #000;
+}

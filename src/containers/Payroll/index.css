@@ -1,0 +1,8 @@
+.anticon-close-circle {
+  display: none;
+}
+
+.form-group .col-form-label {
+  text-align: left;
+  min-width: unset;
+}

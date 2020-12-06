@@ -1,0 +1,268 @@
+.header-treeview {
+    position: relative;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 0px;
+}
+.header-treeview .nav-color {
+    cursor: pointer;
+    border-bottom: solid 1px#f50;
+}
+.header-treeview .nav-color .active {
+    background-color: #f50;
+    color: white;
+}
+.header-treeview .nav-color .nav-item:hover {
+    background-color: #ffffff;
+    border: 0.5px solid;
+    border-bottom: none;
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+.header-treeview .nav-color .nav-item .iconposition {
+    padding-left: 10;
+    float: right;
+}
+/*----------------------------------*/
+.icon-tree {
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.form-add .card {
+    margin-left: 15px;
+}
+.card-content {
+    position: relative;
+}
+.card-info {
+    border: 1px solid #d9d9d9;
+    margin: 0 auto; 
+    max-height: 30vh;
+    margin-bottom: 50px;
+}
+.card-info .button-card {
+    width: 100%;
+}
+.card-info .text-top {
+     margin-top: 30px;
+     margin-bottom: 15px;
+     border-bottom: solid 3px #f50;
+}
+.card-info .text-bottom .position-item {
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-info .text-bottom .position-item span {
+    font-weight: normal;
+}
+.card-info .button-profile {
+    display: inline-flex;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.card-info .text-top h3 {
+    margin: 0;
+    font-weight: bold;
+}
+.card-info .card-avt {
+    background-color: #f50;
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   height: 30vh;
+}
+.card-info .card-avt img {
+    height: 120px;
+    border-radius: 50%;
+    width: 80%;
+}
+@media(max-width: 767px) {
+    .card-info .card-avt {
+        height: 130px;
+    }
+    .card-info .button-profile {
+        margin: 10px 10px 10px 10px;
+        position: initial;
+    }
+    .card-info .card-avt img {
+        height: 100px;
+        width: 100px;
+    }
+    .card-info .text-top {
+        margin: 20px 10px 0 10px;
+    }
+    .card-info .text-bottom {
+        margin: 20px 10px 0 10px;
+    }
+    .card-info {
+        max-height: initial;
+    }
+    .form-add .card {
+        margin-right: 15px;
+        width: 100%;
+    }
+    .table td, .table th {
+        padding: 9px!important;
+    }
+}
+/*-------------------------------------------*/
+.super-treeview {
+ font-size: 100%;
+}
+.super-treeview > div > .super-treeview-no-children-transition {
+ transition-property: all;
+}
+.super-treeview > div > .super-treeview-no-children-transition-enter {
+ opacity: 0;
+ height: 0;
+ overflow: hidden;
+}
+.super-treeview > div > .super-treeview-no-children-transition-enter.super-treeview-no-children-transition-enter-active {
+ opacity: 1;
+ height: 0;
+}
+.super-treeview > div > .super-treeview-no-children {
+ overflow: hidden;
+}
+.super-treeview > div > .super-treeview-no-children > .super-treeview-no-children-content {
+ margin: 2px 0;
+}
+.super-treeview > div > .super-treeview-node {
+ overflow: hidden;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-children-container {
+ margin-left: 8px;
+ padding-left: 20px;
+ border-left: 1px solid #000;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-children-container > .super-treeview-loading {
+ padding: 0 3px;
+ margin: 2px 0;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content {
+ padding: 0 3px;
+ margin: 2px 0;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > label {
+ vertical-align: top;
+ text-overflow: ellipsis;
+ /* width: calc(100% - 55px); */
+ overflow: hidden;
+ white-space: nowrap;
+ display: inline-block;
+ margin: 0;
+ font-weight: normal;
+ font-size: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding-left: 20px;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > input[type=checkbox] {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    bottom: 0;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > .super-treeview-triangle-btn {
+ float: left;
+ margin-right: 5px;
+ cursor: pointer;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > .super-treeview-triangle-btn-right {
+ width: 8px;
+ height: 10px;
+ margin-top: 0;
+ margin-left: 2px;
+ border-top: 5px solid transparent;
+ border-left: 6px solid #000;
+ border-bottom: 5px solid transparent;
+ position: absolute;
+ z-index: 2;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > .super-treeview-triangle-btn-down {
+ width: 10px;
+ height: 8px;
+ margin-top: 0;
+ border-left: 5px solid transparent;
+ border-right: 5px solid transparent;
+ border-top: 6px solid #000;
+ position: absolute;
+ z-index: 2;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > .delete-btn {
+ float: right;
+ cursor: pointer;
+}
+.super-treeview > div > .super-treeview-node-transition {
+ transition-property: all;
+}
+.super-treeview > div > .super-treeview-node-transition-enter {
+ opacity: 0;
+}
+.super-treeview > div > .super-treeview-node-transition-enter.super-treeview-node-transition-enter-active {
+ opacity: 1;
+}
+.super-treeview > div > .super-treeview-node-transition-exit {
+ opacity: 1;
+}
+.super-treeview > div > .super-treeview-node-transition-exit.super-treeview-node-transition-exit-active {
+ opacity: 0;
+ background-color: red;
+}
+.initechNode {
+ border: solid 3px red;
+ border-radius: 3px;
+ padding: 5px;
+ width: 150px;
+ display: inline-block;
+}
+
+#initechOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+ border-right: solid 3px red
+}
+
+#initechOrgChart .nodeLineBorderTop {
+ border-top: solid 3px red;
+}
+.super-treeview-node-content input[type=checkbox] {
+    display: contents;
+}
+.card-left{
+    height:60vh;
+}
+.card-right {
+    height: 60vh;
+}
+.title{
+border-bottom: 1px solid;
+width: 100%;
+}
+.tree-view .title {
+    border-bottom: 1px solid #f50;
+    color: #000000;
+    font-weight: bold;
+}
+/* ====================custom viewtree==================*/
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content {
+    border: solid 1px #123456;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content:hover {
+    background-color: rgba(0,0,0,.075);
+}
+.super-treeview > div > .super-treeview-node > .super-treeview-node-content > .super-treeview-triangle-btn-down .super-treeview-node-content{
+    background-color: rgba(0,0,0,.075);
+}
+
+
+/*css-card*/

@@ -1,0 +1,14 @@
+.ts-form-input,
+.ts-select-box .Select-control {
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.form-group .ts-form-label {
+  text-align: left;
+  min-width: 196px !important;
+}
+
+.col-fake-label {
+  min-width: 196px;
+}

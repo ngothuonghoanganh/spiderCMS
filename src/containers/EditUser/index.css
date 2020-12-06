@@ -1,0 +1,28 @@
+.img-user {
+  position: relative;
+}
+.img-user img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  left: 15px;
+}
+.form-control:disabled {
+  background-color: #ffffff;
+}
+.dropdown-menu.show {
+  border-radius: 0 !important;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
+.Select-control {
+  border: 1px solid #ced4da;
+  border-radius: 0px;
+}
+.form-check-label input[type="checkbox"]:checked + input{
+  background: #f50;
+}

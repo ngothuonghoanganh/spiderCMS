@@ -1,0 +1,66 @@
+.line-bottom {
+  padding: 0 !important;
+  border-bottom: 3px solid #f50;
+  width: 100%;
+  -webkit-border-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgb(245, 81, 22)),
+      color-stop(50%, rgb(243, 141, 69)),
+      to(#f7b112)
+    )
+    100% 0 100% 0;
+  -webkit-border-image: -webkit-linear-gradient(
+      left,
+      rgb(245, 81, 22) 0%,
+      rgb(243, 141, 69) 50%,
+      #f7b112 100%
+    )
+    100% 0 100% 0;
+  -o-border-image: -o-linear-gradient(
+      left,
+      rgb(245, 81, 22) 0%,
+      rgb(243, 141, 69) 50%,
+      #f7b112 100%
+    )
+    100% 0 100% 0;
+  border-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgb(245, 81, 22)),
+      color-stop(50%, rgb(243, 141, 69)),
+      to(#f7b112)
+    )
+    100% 0 100% 0;
+  border-image: linear-gradient(
+      to right,
+      rgb(245, 81, 22) 0%,
+      rgb(243, 141, 69) 50%,
+      #f7b112 100%
+    )
+    100% 0 100% 0;
+}
+.content-cv {
+  padding: 0 !important;
+}
+.btn-width {
+  width: 50px;
+}
+.btn-header {
+  font-size: 1.7rem;
+  padding: 0;
+}
+.form-text {
+  height: 100px;
+}
+.borderline {
+  border-bottom: 1px solid #d9d9d9;
+}
+.button-center {
+  margin: 0 auto;
+}
+.cv-form table {
+  table-layout: fixed;
+}

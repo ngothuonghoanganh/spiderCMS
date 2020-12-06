@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <style type="text/css">
+    @media screen and (max-device-width: 767px),
+      screen and (max-width: 767px)     {
+          .email-card{
+        margin:0 !important;
+       }
+      .email-body {
+        padding: 10px !important;
+      }
+    }
+
+    .email-card {
+      position: relative;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0;
+       margin:40px 30%;
+      box-sizing: border-box;
+      border-top: 3px solid #f50;
+      text-align: center;
+      min-width: 320px;
+      max-width: 600px;
+    }
+    .email_logo {
+      width: 75px;
+      height: 75px;
+    }
+    .email-body {
+      display: block;
+      padding: 6% 5%;
+    }
+    .email-title {
+      margin-bottom: .75rem;
+      margin-top: 1rem;
+    }
+    a {
+      text-decoration: none;
+    }
+    .email-text {
+      margin-bottom: 0;
+    }
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      line-height: 1.5;
+    }
+    .btn-oranges {
+      margin-top: 7%;
+      background-color: #f50;
+      border-color: 1px solid #f50;
+      color: white !important;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      padding: 1% 2%;
+    }
+    .btn-oranges:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-weight: 300;
+      text-align: center;
+      color: #f50;
+      line-height: 1.5em;
+      margin: 0;
+    }
+  </style>
+<body>
+  <div class="email-card" style="">
+    <div class="email-body">
+      <img alt="Spider" src="<%= imageURL %>" class="email_logo"/>
+      <h2>Spider</h2>
+      <h3 class="email-title">Email Confirmation</h3>
+      <p class="email-text">You are almost ready to start enjoying Spider.</p>
+      <p class="email-text">Simply click the button below to verify your email address.</p>
+      <a href="<%= stringEncrypted %>" class="btn btn-oranges">Verify email address</a>
+    </div>
+  </div>
+</body>
+</html>

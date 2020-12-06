@@ -1,0 +1,374 @@
+body {
+  background-color: #EEE;
+}
+
+.navbar .navbar-brand {
+  display: inline-block;
+  width: 205px;
+  padding: 1rem;
+  margin-right: 0;
+  background-image: url('../../assets/img/logo.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 125px auto;
+  -webkit-transition: width .3s;
+  -o-transition: width .3s;
+  transition: width .3s;
+}
+
+.navbar-brand.minimized {
+  width: 50px;
+  background-image: url('../../assets/img/logo_small.svg');
+  background-size: 27px;
+  /* -webkit-transition: width .4s;
+  -o-transition: width .4s;
+  transition: width .4s; */
+}
+
+.navbar-collapse li {
+  padding: 0 20px 0 0;
+}
+
+.navbar.sticky-top {
+  background-color: #fff;
+  border-bottom: 1px solid #e3e8ec;
+  height: 50px;
+}
+
+.menu-bar a,
+.breadcrumb-item a {
+  color: #000;
+}
+
+.menu-bar a:hover {
+  color: #f50;
+  text-decoration: none;
+}
+
+.menu-bar a.active {
+  color: #f50;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: #17A2B8;
+}
+
+.dropdown-menu.notify-dropdown {
+  top: 50px;
+  right: 0px;
+  left: unset;
+  width: 300px;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  padding-bottom: 0px;
+  padding: 0px;
+}
+
+/* .dropdown-menu:before{
+  position: absolute;
+  top: -20px;
+  right: 12px;
+  border-bottom: 8px solid #FFF;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: "";
+  display: inline-block;
+  z-index: 1001;
+} */
+
+.head {
+  padding: 5px 15px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.dropdown-item-footer {
+  margin-top: 0;
+  padding: 5px 15px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.notification-box {
+  padding: 10px 0px;
+}
+
+.bg-gray {
+  background-color: #eee;
+}
+
+.title {
+  font-size: 1rem;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 10px 0 8px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.notification-box {
+  overflow: hidden;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.notification-box.notification-unread {
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.fix-color1.btn-secondary,
+.fix-color1.btn-secondary:hover,
+.fix-color1.btn-secondary:focus {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+
+.fix-color1.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #f50;
+}
+
+.dropdown-item:hover {
+  background-color: #f50;
+  color: #fff;
+}
+
+.fix-color1.btn-secondary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.popover-inner .dropdown-item:first-child {
+  background-color: #f7f7f7;
+}
+
+.popover-inner .dropdown-item:first-child:active,
+.popover-inner .dropdown-item:first-child:hover {
+  color: #212529;
+}
+
+.bs-popover-auto[x-placement^=bottom] .arrow::after,
+.bs-popover-bottom .arrow::after {
+  border-bottom-color: #f7f7f7;
+}
+
+.popoverNotifi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0;
+  width: 96px;
+}
+
+.navbar-toggle {
+  width: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.breadHeader .dropdown-menu:before {
+  display: none;
+}
+
+.breadHeader .dropdown-menu {
+  border-radius: 0;
+  left: inherit;
+  padding: 0;
+  margin: 0;
+  margin-top: 13px;
+  border: none;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
+}
+
+.menu-bar .breadHeader .dropdown-menu a:hover {
+  color: #fff;
+}
+
+li.nav-item.dropdown.breadHeader:hover .dropdown-toggle {
+  color: #f50;
+}
+
+li.nav-item.dropdown.breadHeader .dropdown-toggle::after {
+  display: none
+}
+
+li.nav-item.dropdown.breadHeader a.dropdown-toggle:hover {
+  background-color: transparent;
+}
+
+li.nav-item.dropdown.breadHeader a.dropdown-toggle {
+  padding: 15px 0px 15px 0px;
+}
+
+#icNotiIn svg {
+  color: #f50;
+}
+
+#icNotiOut svg {
+  color: #000
+}
+
+#icNotiIn.iconPopo svg {
+  color: #000
+}
+
+.dropdown-item.link:hover a {
+  color: #fff;
+}
+
+.dropdown-item.link a {
+  color: #212529;
+  max-width: 100%;
+  display: block;
+  padding: 8px 13px;
+}
+
+/* :not(.popover)#root nav ul div li button svg {
+  color: #000;
+} */
+.popProfile span.arrow::after {
+  border-bottom-color: #fff;
+}
+
+.popover span.arrow::before {
+  border-bottom-color: #ccc;
+}
+
+.media-body {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.media-ml {
+  margin-left: 20px;
+}
+
+.popover-inner {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-top: -1px;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  min-width: 250px;
+  font-family: Lato
+}
+
+.popover-body:hover {
+  background: #f50;
+  color: #fff;
+}
+
+.popover-body {
+  border-bottom: 1px solid #ccc
+}
+
+.popProfile .popover-body:hover {
+  background: transparent;
+  color: inherit;
+}
+
+.profile-name {
+  font-weight: 600;
+}
+
+.profile-mail {
+  font-size: 12px;
+  color: #666;
+}
+
+.profile-edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3% 5%;
+  border-top: 1px solid #ebebeb;
+  background-color: #f7f7f7;
+}
+
+.profile-edit a:active,
+.profile-edit a:focus {
+  color: #fff
+}
+
+.media {
+  padding: 0.5em;
+}
+
+.notification-unread a {
+  color: #000;
+  text-decoration: none;
+}
+
+.notification-unread a:hover {
+  color: #fff;
+}
+
+.media svg {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.popProfile .sign-out {
+  /* padding: 4px; */
+}
+
+.popProfile .popover-inner .row {
+  margin-left: 0;
+}
+
+.popProfile .popover-inner {
+  margin-top: -7px;
+}
+
+.popProfile span.arrow::before {
+  top: -5px;
+}
+
+.popProfile span.arrow::after {
+  top: -4px;
+}
+
+.avt-header {
+  width: 34px;
+  height: 34px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avt-profile {
+  width: 90px;
+  height: 90px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px;
+}

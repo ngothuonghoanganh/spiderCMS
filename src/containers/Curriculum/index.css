@@ -1,0 +1,166 @@
+.container.cv-spider{
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+}
+.cv-spider .card {
+    border: none;
+    background-color: transparent;
+}
+.cv-spider .bg-cv {
+    position: relative;
+   
+}
+.cv-spider .bg-cv {
+    background-color: #e6dcce94;
+}
+.cv-spider .dropzone-user {
+    height: 15vw;
+    width: 15vw;
+    margin: 0 auto 10px auto;
+}
+.imageCV {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: -2px;
+}
+.skill {
+    font-size: 1.2vw;
+}
+
+.cv-spider h4.card-title {
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.cv-spider .card-body {
+    padding: 1.25vw;
+}
+.cv-spider h4.card-company {
+    font-family: 'Lato-Regual', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.cv-position {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.25vw;
+    color: #000000a6;
+}
+.cv-line {
+    border-bottom: 0.3vw solid #f50;
+    width: 100%;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(rgb(245, 81, 22)), color-stop(50%, rgb(243, 141, 69)), to(#f7b112))100% 0 100% 0;
+    -webkit-border-image: -webkit-linear-gradient(left, rgb(245, 81, 22) 0%, rgb(243, 141, 69) 50%, #f7b112 100%)100% 0 100% 0;
+       -o-border-image: -o-linear-gradient(left, rgb(245, 81, 22) 0%, rgb(243, 141, 69) 50%, #f7b112 100%)100% 0 100% 0;
+          border-image: -webkit-gradient(linear, left top, right top, from(rgb(245, 81, 22)), color-stop(50%, rgb(243, 141, 69)), to(#f7b112))100% 0 100% 0;
+          border-image: linear-gradient(to right, rgb(245, 81, 22) 0%, rgb(243, 141, 69) 50%, #f7b112 100%)100% 0 100% 0;
+}
+
+.card-border-bottom-orange {
+
+    border-bottom: 0.5vw solid #f50;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#f7b112), color-stop(50%, rgb(243, 141, 69)), to(rgb(245, 81, 22)))100% 0 100% 0;
+    -webkit-border-image: -webkit-linear-gradient(left, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+         -o-border-image: -o-linear-gradient(left, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+            border-image: -webkit-gradient(linear, left top, right top, from(#f7b112), color-stop(50%, rgb(243, 141, 69)), to(rgb(245, 81, 22)))100% 0 100% 0;
+            border-image: linear-gradient(to right, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+  }
+.cv-info {
+    display: flex;
+    align-items: center;
+}
+.cv-spider .media {
+    padding: 0;
+}
+.cv-spider .media-heading {
+    font-weight: 700
+}
+.cv-spider .col-2, .cv-spider .col-10,  .cv-spider .col-3{
+    padding-left: 0;
+    padding-right: 0
+}
+.cv-spider .btn-print {
+    position: fixed;
+    padding: 0.25vh 0.25vw;
+    z-index: 1;
+    font-size: 1.25vw;
+}
+@media (min-width: 1500px) {
+.container.cv-spider {
+    max-width: 1480px;
+}
+}
+
+
+@media print {
+    body {
+        font-family: 'Open Sans', sans-serif;  
+    }
+    .container {
+        max-width: 100% !important;
+    }
+    .print-f14 {
+        font-size: 18.7px !important;
+    }
+    .print-f12 {
+        font-size: 16px !important;
+    }
+    .print-f13 {
+        font-size: 17.5px !important;
+    }
+    .print-name {
+        letter-spacing: 2px !important;
+    }
+
+    .print-pd {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cv-spider .bg-cv::before{
+        content: '';
+        position:fixed;
+        width: 280px;
+        top:0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        background: #e6dcce94;
+    }
+    .print-line::before {
+        content: '';
+        position:fixed;
+        top:0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        border-bottom: 0.5vw solid #f50;
+        width: 100%;
+        -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#f7b112), color-stop(50%, rgb(243, 141, 69)), to(rgb(245, 81, 22)))100% 0 100% 0;
+        -webkit-border-image: -webkit-linear-gradient(left, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+             -o-border-image: -o-linear-gradient(left, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+                border-image: -webkit-gradient(linear, left top, right top, from(#f7b112), color-stop(50%, rgb(243, 141, 69)), to(rgb(245, 81, 22)))100% 0 100% 0;
+                border-image: linear-gradient(to right, #f7b112 0%, rgb(243, 141, 69) 50%, rgb(245, 81, 22) 100%)100% 0 100% 0;
+    }
+    html body {
+        background-color: #fff !important
+    }
+    .cv-spider .card-border-bottom-orange {
+        border-bottom: 0;
+    }
+    .cv-spider .btn-print {
+        display: none;
+    }
+    .container.cv-spider{
+        padding-top : 0!important;
+        padding-bottom : 0!important;
+    }
+    .cv-spider .bg-cv {
+        background-color: transparent !important;
+    }
+   
+}

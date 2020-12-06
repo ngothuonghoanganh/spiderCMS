@@ -1,0 +1,73 @@
+.profile-general {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 5px #afafaf;
+  box-shadow: 1px 2px 5px #afafaf;
+  padding: 4%;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin: 5% auto;
+  border-radius: 50%;
+}
+
+.profile-pic-none {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 8% auto;
+  background-color: #777777;
+  border: 2px solid #777777;
+}
+
+.profile-avt-none {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 8% auto;
+  background-color: #777777;
+  border: 2px solid #777777;
+}
+
+.profile-title {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.profile-subtitle {
+  font-size: 1em;
+}
+
+.profile-body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.profile-body li {
+  margin: 1.2rem 0;
+}
+
+.profile-body i {
+  width: 32px;
+}
+
+.profile-body div {
+  display: inline-block;
+  width: 30%;
+}
+
+.profile-body ul span,
+.profile-body ul div {
+  padding-left: 0;
+}
+
+.profile-general .sign-out {
+  display: inline-flex;
+}
+
+.modal-footer > * {
+  margin: 0.25rem 0px;
+}

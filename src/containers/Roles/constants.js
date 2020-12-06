@@ -1,0 +1,13 @@
+export const FETCH_ROLES = 'FETCH_ROLES';
+export const ADD_ROLE = 'ADD_ROLE';
+export const DELETE_ROLE = 'DELETE_ROLE';
+export const UPDATE_ROLE = 'UPDATE_ROLE';
+export const PER_SP_ADMIN = 'spadmin';
+export const PER_READ_ROLE = 'readRole';
+export const PER_CREATE_ROLE = 'createRole';
+export const PER_DELETE_ROLE = 'deleteRole';
+export const PER_UPDATE_ROLE = 'updateRole';
+export const RESPONSE_KEY = 'responseKey';
+export const MESSAGE_FAILED = 'FAILED !!!';
+export const MESSAGE_SUCCESS = 'SUCCESS !!!';
+export const SPADMIN_ID = 1;

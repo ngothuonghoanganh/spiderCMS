@@ -1,0 +1,3 @@
+export const LOAD_DATA_REQUEST = 'LOAD_DATA_REQUEST';
+export const LOAD_DATA = 'LOAD_DATA';
+export const UPDATE_PROFILE = 'UPDATE_PROFILE';

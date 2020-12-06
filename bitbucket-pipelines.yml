@@ -1,0 +1,20 @@
+image: node:6.9.4
+
+pipelines:
+  branches:
+      develop:
+        - step:
+            name: Build and release
+            deployment: test
+            caches:
+              - node
+            script:
+              - npm install
+              - npm run lint
+              - npm run build
+              - mkdir -p ~/.ssh
+              - (umask  077 ; echo $stx_ssh > ~/.ssh/id_rsa)
+              - ssh-keygen -R 35.187.205.142
+              - ssh -i thanhnhan2tn@35.187.205.142 -p 22222 'echo "connected to `host` as thanhnhan2tn"'
+              - pwd && ls -la
+
